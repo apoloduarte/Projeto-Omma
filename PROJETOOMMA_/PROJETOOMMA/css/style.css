@@ -1,0 +1,164 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    background-color: #ffc107;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.cabecalho {
+    width: 1440px;
+    height: 100px;
+}
+
+#img-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.navegador {
+    background-color: #ffa000;
+    height: 48px;
+    width: 1440px;
+}
+
+.itens {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    margin: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#receita-afeto {
+    width:1440px;
+    height: 772px;
+     }
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.banner1 {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+#frasebaner1 {
+    color: white;
+    height: 170px;
+    width: 370px;
+    font-weight: 700;
+    font-size: 70px;
+    margin: -500px;
+}
+
+.rsemana {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffa000;
+    font-weight: 700;
+    font-size: 55px;
+    padding: 40px;
+}
+
+.imagensdasemana {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2%;
+    gap: 80px;
+
+}
+
+.receita img {
+    width: 345px;
+    height: 342px;
+}
+
+.receita a {
+    display: inline-block;
+    margin-top: 3%;
+    border: 1px solid;
+    align-items: center;
+    background-color: green;
+    text-decoration: none;
+    color: white;
+    padding: 5px 25px;
+}
+
+.receita p {
+
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.receita {
+    margin-bottom: 5%;
+}
+
+.partebaixo {
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.partebaixo h1 {
+    text-align: left;
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    margin-left: 122px;
+    top: 1750px;
+    width: 588px;
+    font-size: 65px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.partebaixo p {
+    text-align: left;
+    margin-left: 122px;
+    font-weight: 500;
+    color: white;
+    position: absolute;
+    top: 1850px;
+    width: 588px;
+    font-size: 25px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+footer {
+    background-color: #ffc107;
+    width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start
+}
+
+#frasefinal {
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+}
